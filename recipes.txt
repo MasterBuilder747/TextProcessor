@@ -1,0 +1,20 @@
+<gregtech:machine:420>
+<gregtech:meta_item_1:14033> * 4
+<gregtech:cable:1079> * 4
+<gregtech:meta_item_1:14297> * 2
+<contenttweaker:material_part:4> * 2
+<gregtech:meta_item_1:14189> * 2
+<gregtech:cable:5071> * 2
+<gregtech:meta_item_1:14071> * 2
+<gregtech:machine:501>
+<minecraft:log>
+<gregtech:machine:421>
+<gregtech:meta_item_1:14033> * 4
+<gregtech:cable:1079> * 4
+<gregtech:meta_item_1:14297> * 2
+<contenttweaker:material_part:4> * 2
+<gregtech:meta_item_1:14189> * 2
+<gregtech:cable:5071> * 2
+<gregtech:meta_item_1:14071> * 2
+<gregtech:machine:501>
+<minecraft:log>
