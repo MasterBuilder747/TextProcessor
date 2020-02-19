@@ -13,6 +13,7 @@ public class RecipeReader {
         while (true) {
             String s = br.readLine();
             //System.out.println(s);
+            //recipe separator
             if (s.contains("<minecraft:log>")) {
                 break;
             }
@@ -35,28 +36,28 @@ public class RecipeReader {
         //switch based on platform
         String mac = "/Users/Joseph/Desktop/recipes.txt";
         String pc = "C:\\Users\\jaath\\Desktop\\recipes.txt";
-        FileReader fr = new FileReader(mac);
+        FileReader fr = new FileReader(pc);
         BufferedReader br = new BufferedReader(fr);
 
         System.out.println("import mods.modularmachinery.RecipeBuilder;\n" +
                 "import mods.modularmachinery.RecipePrimer;\n" +
                 "import crafttweaker.item.IItemStack;");
         System.out.println();
-        System.out.println("val machine = \"gt_crafter_lv\";");
+        System.out.println("val machine = \"gt_crafter_ev\";");
         System.out.println();
 
-
-        int mach = 0;
+        //starting machine naming value
+        int mach = 100;
         while(true) {
             //this will throw an exception, so its not technically infinite
             String[] a = readFile(br);
 
             String s = a[0];
             System.out.println("recipes.remove(" + s + ");");
-            System.out.println("val machine" + mach + " = mods.modularmachinery.RecipeBuilder.newBuilder(\"machine" + mach + "\", machine, 100);");
-            System.out.println("machine" + mach + ".addEnergyPerTickInput(2000);");
-            System.out.println("machine" + mach + ".addItemOutput(" + s + ");");
-            System.out.println("var machine" + mach + "_item = [");
+            System.out.println("val number" + mach + " = mods.modularmachinery.RecipeBuilder.newBuilder(\"number" + mach + "\", machine, 100);");
+            System.out.println("number" + mach + ".addEnergyPerTickInput(800000);");
+            System.out.println("number" + mach + ".addItemOutput(" + s + ");");
+            System.out.println("var number" + mach + "_item = [");
 
             for (int i = 0; i < a.length; i++) {
                 if(i < a.length - 1) {
@@ -67,10 +68,10 @@ public class RecipeReader {
                 }else{
                     System.out.println("\t" + s);
                     System.out.println("] as IItemStack[];");
-                    System.out.println("for item in machine" + mach + "_item {");
-                    System.out.println("\tmachine" + mach + ".addItemInput(item);");
+                    System.out.println("for item in number" + mach + "_item {");
+                    System.out.println("\tnumber" + mach + ".addItemInput(item);");
                     System.out.println("}");
-                    System.out.println("machine" + mach + ".build();");
+                    System.out.println("number" + mach + ".build();");
                     System.out.println();
                 }
             }
