@@ -47,7 +47,7 @@ public class RecipeReader {
         System.out.println();
 
         //starting machine naming value
-        int mach = 100;
+        int mach = 202;
         while(true) {
             //this will throw an exception, so its not technically infinite
             String[] a = readFile(br);
@@ -55,7 +55,7 @@ public class RecipeReader {
             String s = a[0];
             System.out.println("recipes.remove(" + s + ");");
             System.out.println("val number" + mach + " = mods.modularmachinery.RecipeBuilder.newBuilder(\"number" + mach + "\", machine, 100);");
-            System.out.println("number" + mach + ".addEnergyPerTickInput(800000);");
+            System.out.println("number" + mach + ".addEnergyPerTickInput(1200000000);");
             System.out.println("number" + mach + ".addItemOutput(" + s + ");");
             System.out.println("var number" + mach + "_item = [");
 
