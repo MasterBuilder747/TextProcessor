@@ -1,7 +1,8 @@
 # Modular Machinery Machine recipe generator
 
-This is a great program to use if you need a ton of modular machine recipes and you don't ahve the time to write them all, this program will do that for you.
+This is a great program to use if you need a ton of modular machine recipes and you don't have the time to write them all, this program will do that for you.
 
+How to use:
 1. Download this project
 2. Open it in a Java IDE (eg. Eclipse, IntellJ, Netbeans, etc)
 3. In the code: change the String for the file path to (preferably) your desktop [TODO: I will make a UI for this instead]
