@@ -9,7 +9,7 @@ How to use:
 4. In the code: change the variable generated to work for your machine (multiple machines can be added as well) [UI for this too]
 5. Create a new blank text file name recipes.txt (or whatever name you put in the directory String)
 6. Go into your pack and grab the items into your inventory, 
-  make sure that the input is the first item (on the hotbar), that <minecraft:log> is in your offhand
+  make sure that the input is the first item (on the hotbar), that <minecraft:log> is in your offhand, there cannot be linespaces, or it will crash so keep repeating this for every recipe for that particular machine
 7. Run /ct inventory
 8. View your log file and copy and paste the generated items (including the stacks) into your blank file in your defined path
 9. Run the program (ignore the null pointer exception, it still works)
