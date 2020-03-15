@@ -8,7 +8,7 @@ How to use:
 1. Download this project
 2. Open it in a Java IDE (eg. Eclipse, IntellJ, Netbeans, etc)
 3. In the code: change the String for the file path to (preferably) your desktop [TODO: I will make a UI for this instead]
-4. In the code: change the variable generated to work for your machine (multiple machines can be added as well) [UI for this too]
+4. In the code: change the variable generated to work for your machine (multiple machines can be added as well) [UI for this too] You will also need to change the power (RF/t) requirement for each recipe induvidually (but you can define the default) because I wrote this so that every recipe has the same power requirement, but unfortuently there isn't a better way to implement this :/
 5. Create a new blank text file name recipes.txt (or whatever name you put in the directory String)
 6. Go into your pack and grab the items into your inventory, 
   make sure that the input is the first item on the left (on your hotbar), that <minecraft:log> is in your offhand
