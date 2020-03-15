@@ -2,6 +2,8 @@
 
 This is a great program to use if you need a ton of modular machine recipes and you don't have the time to write them all, this program will do that for you.
 
+There are example text files in this code posted above.
+
 How to use:
 1. Download this project
 2. Open it in a Java IDE (eg. Eclipse, IntellJ, Netbeans, etc)
