@@ -77,4 +77,6 @@ public class UpgradesGenerator {
     //number starts at 1000
     //energy per tick must be different and must be as high as possible for each tier
 
+
+
 }
