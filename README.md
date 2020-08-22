@@ -1,5 +1,8 @@
 # Modular Machinery Machine recipe generator
 
+Mod link: https://www.curseforge.com/minecraft/mc-mods/modular-machinery
+Mod repository: https://github.com/HellFirePvP/ModularMachinery
+
 This is a great program to use if you need a ton of modular machine recipes and you don't have the time to write them all, this program will do that for you.
 
 Look at recipes.txt for an example file. This generates two machine recipes for a defined MM machine
